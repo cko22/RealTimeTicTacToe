@@ -85,6 +85,6 @@ app.get("/",(req,res)=>{
     return res.sendFile("index.html")
 })
 
-server.listen(3000,()=>{
-    console.log("port connected to 3000")
+server.listen(10000,()=>{
+    console.log("port connected to 10000")
 })
